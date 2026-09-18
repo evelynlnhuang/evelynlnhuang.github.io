@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Evelyn Huang portfolio">
+  <title>Evelyn Huang | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>.header-actions{display:flex;align-items:center;gap:18px}.language-switch{border:0;background:transparent;color:#fff;font:10px "DM Mono",monospace;padding:0;cursor:pointer}.about-side{align-self:end}.profile-photo{width:148px;aspect-ratio:1;border-radius:50%;background:#cad7dd;display:grid;place-items:center;margin:0 0 27px auto;text-align:center;font:10px/1.5 "DM Mono",monospace;letter-spacing:.08em}.art-two strong{font-size:clamp(52px,8vw,115px)}.hero{background:#17324d;color:#fff}.site-header .logo,.site-header nav a,.site-header .talk{color:#fff}.site-header .talk{border-color:#fff}.roundel{border-color:#fff}.project-one .art{background:#34566d}.art-two{background:#e7e4dc;color:#29485e}.art-three{background:#385874}.contact h2 a{color:#cad7dd}@media(max-width:700px){.profile-photo{width:112px;margin:0 0 25px}.art-two strong{font-size:clamp(42px,13vw,68px)}}</style>
+  <style>.hero{position:relative;isolation:isolate;background-color:#0b1f33;background-image:radial-gradient(circle at 78% 30%,rgba(68,202,217,.19),transparent 26%),linear-gradient(rgba(112,191,203,.1) 1px,transparent 1px),linear-gradient(90deg,rgba(112,191,203,.1) 1px,transparent 1px);background-size:auto,34px 34px,34px 34px}.hero:after{content:"";position:absolute;right:9%;top:24%;width:17vw;max-width:240px;aspect-ratio:1;border:1px solid rgba(143,231,239,.55);border-radius:50%;box-shadow:0 0 0 28px rgba(71,180,194,.05),0 0 48px rgba(68,202,217,.24);z-index:0}.hero>*{position:relative;z-index:1}.roundel{background:rgba(14,49,70,.6);border-color:#8fe7ef;color:#d6f8fa}.profile-photo{background:#dce9eb;color:#16394b;box-shadow:0 0 0 9px rgba(74,141,156,.13)}.project-one .art{background-image:radial-gradient(circle at 52% 48%,rgba(135,231,238,.19),transparent 26%),linear-gradient(rgba(143,231,239,.1) 1px,transparent 1px),linear-gradient(90deg,rgba(143,231,239,.1) 1px,transparent 1px);background-size:auto,24px 24px,24px 24px}.art-three{background:#213f5d}.art-three:after{background:#83d9df}.art-three b{background:#77a6d3}@media(max-width:700px){.hero:after{width:40vw;right:-8%;top:25%}}</style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">EH<span>+</span></a>
+    <nav aria-label="Main navigation"><a href="#about" data-i18n="navAbout">About</a><a href="#interests" data-i18n="navInterests">Interests</a><a href="#work" data-i18n="navWork">Work</a><a href="#contact" data-i18n="navContact">Contact</a></nav>
+    <div class="header-actions"><button class="language-switch" type="button" aria-label="Switch language">EN / 中</button><a class="talk" href="mailto:hello@evelynhuang.design" data-i18n="talk">Let's talk</a></div>
+  </header>
+  <main id="home">
+    <section class="hero">
+      <p class="label" data-i18n="heroLabel">AI STUDENT / TAOYUAN</p>
+      <div class="hero-copy"><h1 data-i18n="heroTitle">Making the<br><em>ordinary</em> memorable.</h1><div class="roundel" data-i18n="scroll">SCROLL<br>DOWN</div></div>
+      <p class="intro" data-i18n="intro">Hello, I am Evelyn Huang, an Artificial Intelligence student at Chang Gung University. I design<br>thoughtful identities and digital experiences for people with something to say.</p>
+    </section>
+    <section class="about section" id="about">
+      <p class="label" data-i18n="aboutLabel">01 / ABOUT ME</p>
+      <div class="two-column"><h2 data-i18n="aboutTitle">Curious by nature.<br>Purposeful by design.</h2><div class="about-side"><div class="profile-photo" role="img" aria-label="Profile photo placeholder">YOUR<br>PHOTO</div><div class="body-copy"><p data-i18n="aboutCopy">I study Artificial Intelligence at Chang Gung University and enjoy turning an early thought into a clear, useful, and distinctive digital experience. My learning goal is to apply AI to smart healthcare, creating technology that supports better, more human-centred care.</p><a href="mailto:hello@evelynhuang.design" data-i18n="more">More about me <span>+</span></a></div></div></div>
+    </section>
+    <section class="interests section" id="interests">
+      <p class="label" data-i18n="interestsLabel">02 / INTERESTS</p>
+      <div class="two-column"><h2 data-i18n="interestsTitle">My best ideas often<br>begin <em>away from a screen.</em></h2><ol><li data-i18n="interestOne"><span>01</span> Long walks and architecture</li><li data-i18n="interestTwo"><span>02</span> Film photography and books</li><li data-i18n="interestThree"><span>03</span> Coffee, music, and new places</li></ol></div>
+    </section>
+    <section class="work section" id="work">
+      <div class="section-heading"><p class="label" data-i18n="workLabel">03 / SELECTED WORK</p><h2 data-i18n="workTitle">Selected work <sup>(03)</sup></h2></div>
+      <div class="projects">
+        <article class="project project-one"><div class="art"><i></i><strong>SORA</strong><small>WELLNESS / 2025</small></div><div class="project-meta"><h3 data-i18n="projectOneTitle">01 &nbsp; Sora Wellness</h3><p data-i18n="projectOneType">Brand identity / Website</p></div></article>
+        <article class="project"><div class="art art-two"><strong>MEDILENS</strong><small>AI HEALTHCARE / 2026</small></div><div class="project-meta"><h3 data-i18n="projectTwoTitle">02 &nbsp; MediLens</h3><p data-i18n="projectTwoType">AI healthcare / Product concept</p></div></article>
+        <article class="project"><div class="art art-three"><b></b><strong>VITAL</strong><small>HEALTH DATA / 2026</small></div><div class="project-meta"><h3 data-i18n="projectThreeTitle">03 &nbsp; Vital</h3><p data-i18n="projectThreeType">Health data / Dashboard design</p></div></article>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <p class="label" data-i18n="contactLabel">04 / GET IN TOUCH</p><h2 data-i18n="contactTitle">Have an idea?<br><a href="mailto:hello@evelynhuang.design">Let's make it real.</a></h2>
+      <footer><p data-i18n="location">Taoyuan, Taiwan<br>Available worldwide</p><p><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a> &nbsp; <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></p><p>2026 Evelyn Huang</p></footer>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
